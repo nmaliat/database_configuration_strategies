@@ -1,5 +1,5 @@
 # database_configuration_strategies
-/*steps I typically take and table i check to configure errors in a UI market job */
+/*steps I typically take and tables i check to configure errors in a UI market job */
 
 select * from A2_ISO_JOB_DETAIL where JOB_ID in (1161)    /* table for job detail */
 select * from a2iReportLkReport where reportid in (1161)  /* table for report */
